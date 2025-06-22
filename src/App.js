@@ -73,7 +73,7 @@ function App() {
     <div className="App">
       <h1>React Calculator</h1>
       <div className='calc'>
-        <input className='input' value={input} readOnly />
+        <input className='input' type="text" value={input} readOnly />
         <div className='output'>{output}</div>
 
         <div className='cal_btns'>
