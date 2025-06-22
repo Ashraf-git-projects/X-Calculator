@@ -1,0 +1,27 @@
+.App{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+.calc{
+  margin-top: 15px;
+}
+.input{
+  margin-left: 1%;
+  height: 25px;
+  width: 200px;
+}
+
+.cal_btns{
+  margin-top:10px ;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:5px;
+}
+.btn{
+  padding: 10px;
+}
+.output{
+  margin: 20px;
+}
